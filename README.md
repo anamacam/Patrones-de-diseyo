@@ -23,5 +23,23 @@ Es de esperar que los patrones de diseño varien en complejidad , escalabilidad 
   - Abstract Factory
   - Builder
   - Prototype
-- *Patrones estructurales* : se utilizan para ensamblar objetos y clases en estructuras más grandes sin afectar la flexiblidad y eficiencia de la estructura.
-- *Patrones de comportamiento* : Se encargan de la comunicacion y asignacion de responsabilidad entre objetos.
+  - Singleton
+- *Patrones estructurales* : se utilizan para ensamblar objetos y clases en estructuras más grandes sin afectar la flexiblidad y eficiencia de la estructura:
+  - Adapter
+  - Bridge
+  - Bridge
+  - Decorator
+  - Facade
+  - Flyweight
+  - Proxy
+- *Patrones de comportamiento* : Se encargan de la comunicacion y asignacion de responsabilidad entre objetos:
+  - Chain of Responsibility
+  - Command
+  - Memento
+  - Template Method
+  - Visitor
+  - Iterator
+  - State
+  - Mediator
+  - Strategy
+  
