@@ -21,17 +21,16 @@ Es de esperar que los patrones de diseño varien en complejidad , escalabilidad 
 - **Patrones creacionales** : para la creación de objetos, son flexibles y reutilizables en el código existente:
   - Factory Method: Es un tipo de patron que permite crear objetos en una superclasey al a vez modificar o alterar estos ojetos en una subclase.
   - Abstract Factory : Permite crear familas de objetos o productos relacionados :family_man_woman_girl_boy:
-  - Builder : Se aplica cuando se requiera construir un arbol de objetos.
-  - Prototype: permite utilizar como prototipos un grupo de objetos
+  - Builder : es funcional cuando se requiera construir un arbol de objetos.
+  - Prototype: permite utilizar como prototipos un grupo de objetos.
   - Singleton : facilita el contro estricto de variables globales.
 - *Patrones estructurales* : se utilizan para ensamblar objetos y clases en estructuras más grandes sin afectar la flexiblidad y eficiencia de la estructura:
-  - Adapter
-  - Bridge
-  - Bridge
-  - Decorator
-  - Facade
-  - Flyweight
-  - Proxy
+  - Adapter: facilita la colaboración entre objetos con interfaces incopatibles
+  - Bridge : se utiliza cuando se requiere organizar y dividir una clse monolítica o extendrla en varias dimensiones.
+  - Decorator : añade nuevas funcionalidades a objetos encasublados.
+  - Facade : es útil cuando se requiera una estructura de capas o subsistemas.
+  - Flyweight : es aplicable solamente cuando el programa requiera soportar una cantidad de objetos soportables en la RAM.
+  - Proxy : controla el acceso al objeto original 
 - *Patrones de comportamiento* : Se encargan de la comunicacion y asignacion de responsabilidad entre objetos:
   - Chain of Responsibility
   - Command
