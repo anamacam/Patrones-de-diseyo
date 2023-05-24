@@ -20,7 +20,7 @@ Es de esperar que los patrones de diseño varien en complejidad , escalabilidad 
 
 - **Patrones creacionales** : para la creación de objetos, son flexibles y reutilizables en el código existente:
   - Factory Method: Es un tipo de patron que permite crear objetos en una superclasey al a vez modificar o alterar estos ojetos en una subclase.
-  - Abstract Factory : Permite crear familas de objetos o productos relacionados 
+  - Abstract Factory : Permite crear familas de objetos o productos relacionados :family_man_woman_girl_boy:
   - Builder : Se aplica cuando se requiera construir un arbol de objetos.
   - Prototype: permite utilizar como prototipos un grupo de objetos
   - Singleton : facilita el contro estricto de variables globales.
