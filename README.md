@@ -18,12 +18,12 @@ Algunas críticas estan orientadas a evitar su necesidad de uso. Por otro lado, 
 ## Clasificación :
 Es de esperar que los patrones de diseño varien en complejidad , escalabilidad y nevels de detalle. Esto no ndebe verse como una desventaja, sino practica que da status al diseño que puede ser da bajo nivel o llamarse **idioms** y de más alto nivel como son los **patrones de arquitectura**. Estos se clasifican según su proposito y estan agrupados así:
 
-- *Patrones creacionales* : para la creación de objetos, son flexibles y reutilizables en el código existente:
-  - Factory Method: Es un tipo de patron que permite crear objetos en una superclase y al a vez modificar o alterar estos ojetos en una subclase.
-  - Abstract Factory
-  - Builder
-  - Prototype
-  - Singleton
+- **Patrones creacionales** : para la creación de objetos, son flexibles y reutilizables en el código existente:
+  - Factory Method: Es un tipo de patron que permite crear objetos en una superclasey al a vez modificar o alterar estos ojetos en una subclase.
+  - Abstract Factory : Permite crear familas de objetos o productos relacionados 
+  - Builder : Se aplica cuando se requiera construir un arbol de objetos.
+  - Prototype: permite utilizar como prototipos un grupo de objetos
+  - Singleton : facilita el contro estricto de variables globales.
 - *Patrones estructurales* : se utilizan para ensamblar objetos y clases en estructuras más grandes sin afectar la flexiblidad y eficiencia de la estructura:
   - Adapter
   - Bridge
